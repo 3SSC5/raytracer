@@ -23,7 +23,7 @@ int main() {
             int red = gradient_height * MAX_VALUE;
             int blue = gradient_width * MAX_VALUE;
 
-            file << red << " " << 0 << " " << blue;
+            file << red << " " << 0 << " " << blue << " ";
         }
 
         file << "\n";
